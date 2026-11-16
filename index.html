@@ -15,16 +15,17 @@
             <h1>SENGAN</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Top</a></li>
-                    <li><a href="">Feature</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">SNS</a></li>
+                    <li><a href="#top">トップ</a></li>
+                    <li><a href="#feature">おすすめ</a></li>
+                    <li><a href="#items">商品一覧</a></li>
+                    <li><a href="#sns">SNS</a></li>
+                    <li><a href="#"><img src="img/basket.png" alt="" class="basket"></a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main>
+    <main id="top">
 
         <!-- メインビジュアル -->
         <div class="main-visual">
@@ -36,21 +37,144 @@
         <div class="content">
 
             <!-- Feature -->
-            <div class="feature">
-                <div class="SubTitle">
-                    <h2>Feature</h2>
-                    <p>特徴</p>
+            <div class="feature" id="feature">
+                <!-- <div class="SubTitle"> -->
+                    <h2>おすすめTOP3</h2>
+                    <!-- <p>特徴</p> -->
+                <!-- </div> -->
+
+                <div class="pointWrap">
+
+                    <!-- ポイント１ -->
+                    <div class="point">
+                        <div class="descWrap">
+                            <h3>1. ホワイトホイップ / 濃密泡洗顔</h3>
+                            <p>濃密泡が毛穴の奥までアプローチ</p>
+                            <p>
+                                厳選した整肌成分・保湿成分を
+                                贅沢に92.3%配合。<br>
+                                洗うたび潤いと透明感のある肌へ導きます
+                            </p>
+                        </div>
+                        <img src="img/point1.png" alt="">
+                    </div>
+
+
+                    <!-- ポイント２ -->
+                    <div class="point">
+                        <img src="img/point2.png" alt="">
+                        <div class="descWrap">
+                            <h3>2. ホワイトクレンジングミルク</h3>
+                            <p>ミルクなのに高い洗浄力があり<br>
+                                毛穴汚れも優しくオフ</p>
+                            <p>
+                                摩擦を抑えてメイクオフ、
+                                洗い上がりはつっぱらず<br>
+                                しっとりうるおいます
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <!-- ポイント３ -->
+                    <div class="point">
+                        <div class="descWrap">
+                            <h3>3. ブラックホイップ / 濃密泡洗顔</h3>
+                            <p>毛穴汚れを吸着する炭を配合</p>
+                            <p>
+                                ざらつきや毛穴汚れのお悩みに<br>
+                                アプローチします
+                            </p>
+                        </div>
+                        <img src="img/point3.png" alt="">
+                    </div>
                 </div>
 
-                <div class="point1">
-                    <h3>ホワイトホイップ / 濃密泡洗顔</h3>
-                    <p>濃密泡が毛穴の奥までアプローチ</p>
-                    <p>
-                        厳選した整肌成分・保湿成分を<br>
-                        贅沢に92.3%配合。<br>
-                        洗うたび潤いと透明感のある肌へ導きます
-                    </p>
-                    <img src="img/" alt="">
+            </div>
+
+            <!-- 定期購入バナー -->
+            <div class="banner">
+                <img src="img/banner.png" alt="">
+            </div>
+
+            <div class="items" id="items">
+                <h2>商品一覧</h2>
+
+                <div class="itemContent">
+                    <div class="itemWrap">
+                        <div class="item">
+                            <img src="img/item1.png" alt="">
+                            <h3>ホワイトホイップ</h3>
+                            <p>洗顔料 / 120g</p>
+                            <p class="price">¥3,980- (税込) </p>
+                            <p>毛穴汚れのない肌へ</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/item2.png" alt="">
+                            <h3>クレンジングオイル ブラック</h3>
+                            <p>クレンジング / 150ml</p>
+                            <p class="price">¥3,980- (税込) </p>
+                            <p>する落ちメイクも皮脂も</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/item3.png" alt="">
+                            <h3>ブラックホイップ</h3>
+                            <p>洗顔料 / 120g</p>
+                            <p class="price">¥3,980- (税込) </p>
+                            <p>皮脂汚れが気になる方へ</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/item4.png" alt="">
+                            <h3>ホワイトウォーターミスト</h3>
+                            <p>ミスト / 150ml</p>
+                            <p class="price">¥3,980- (税込) </p>
+                            <p>美白透明肌へ</p>
+                        </div>
+                    </div>
+
+
+                    <div class="itemWrap">
+                        <div class="item">
+                            <img src="img/item5.png" alt="">
+                            <h3>クレンジングオイル ブラック</h3>
+                            <p>クレンジング / 120g</p>
+                            <p class="price">¥3,980- (税込) </p>
+                            <p>する落ちメイクも皮脂も</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/item6.png" alt="">
+                            <h3>クレンジングミルク ホワイト</h3>
+                            <p>クレンジング / 120g</p>
+                            <p class="price">¥3,980- (税込) </p>
+                            <p>毛穴汚れのない肌へ</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/item7.png" alt="">
+                            <h3>スキンケアセット</h3>
+                            <p>洗顔料 120g / 化粧水20ml / クリーム8g</p>
+                            <p class="price">¥3,980- (税込) </p>
+                            <p>特別なギフトセット</p>
+                        </div>
+                        <div class="item">
+                            <img src="img/item8.png" alt="">
+                            <h3>ホワイトクリーム</h3>
+                            <p>クリーム / 30g</p>
+                            <p class="price">¥3,980- (税込) </p>
+                            <p>濃厚保湿クリーム</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- sns -->
+            <div class="snsWrap" id="sns">
+                <h2>SNS</h2>
+                <p>最新情報をお届け</p>
+                <div class="snsIcon">
+                    <img src="img/X.png" alt="">
+                    <img src="img/inst.png" alt="">
+                    <img src="img/line.png" alt="">
                 </div>
             </div>
 
